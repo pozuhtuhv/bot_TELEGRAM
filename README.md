@@ -9,3 +9,4 @@
 - [x] Price info (add, del, list) 구성
 - [ ] Upbit Asset Connect
 - [ ] Price info Upbit Connect
+- [ ] Coin Price Money Trace
