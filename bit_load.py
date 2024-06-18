@@ -2,6 +2,12 @@ import os
 from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
+import jwt
+import hashlib
+import os
+import requests
+import uuid
+from urllib.parse import urlencode, unquote
 
 # .env 파일 활성화
 load_dotenv()
@@ -15,8 +21,16 @@ ROOM_ID = os.getenv('ROOM_ID')
 class TelegramBotHandler:
     
     @classmethod
+    async def command(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        msg = '''* command info
+         - /price : 계좌 정보
+         - /info <CODE> : 코인 가격
+        '''
+        await update.message.reply_text(msg)
+
+    @classmethod
     async def info(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        # 명령어 뒤에 입력된 인수를 받아옵니다.
+        # 명령어 뒤에 입력된 인수를 받아옴.
         args = context.args
         if args:
             msg = f"info: {' '.join(args)}"
@@ -28,6 +42,7 @@ class TelegramBotHandler:
 def main():
     try:
         application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+        application.add_handler(CommandHandler('command', TelegramBotHandler.command))
         application.add_handler(CommandHandler('info', TelegramBotHandler.info))
         application.run_polling()
     except KeyboardInterrupt:
