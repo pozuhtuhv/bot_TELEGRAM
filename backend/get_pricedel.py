@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ContextTypes
 import asyncio
 
-async def pricedel(update: Update, context: ContextTypes.DEFAULT_TYPE, price_list: list):
+async def get_pricedel(update: Update, context: ContextTypes.DEFAULT_TYPE, price_list: list):
     args = context.args
     if args:
         coin = args[0]

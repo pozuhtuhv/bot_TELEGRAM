@@ -2,7 +2,7 @@
 
 import asyncio
 
-async def price(context_args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY):
+async def get_price(context_args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY):
     
     
     

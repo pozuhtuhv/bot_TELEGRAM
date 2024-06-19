@@ -3,12 +3,14 @@ import asyncio
 from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
-from backend.info import info
-from backend.price import price
-from backend.priceadd import priceadd
-from backend.pricedel import pricedel
-from backend.myasset import myasset
 import time
+# 따로 보는게 맞을거같아서 모듈 완전 분리
+from backend.get_info import get_info
+from backend.get_price import get_price
+from backend.get_priceadd import get_priceadd
+from backend.get_pricedel import get_pricedel
+from backend.get_myasset import get_myasset
+
 
 # .env 파일 활성화
 load_dotenv()
@@ -25,12 +27,12 @@ timeset = 60 # default
 class TelegramBotHandler:
     
     @classmethod
-    async def command(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Command List')
         msg = '''Upbit 코인 알림 봇입니다.
 command - 커맨드 정보
 myasset - 코인자산정보
-info - 코인 현재 가격정보
+info - 코인 현재 가격정보 (ex. KRW-BTC, BTC-ETH)
 price - 가격 정보 알림 / default 1분
 priceset - 가격 정보 알림 시간 설정
 pricelist - 불러올 코인 리스트
@@ -41,28 +43,26 @@ pricedel - 불러올 코인 리스트에 삭제
 
     # 자산정보 불러오기
     @classmethod
-    async def myasset(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        print(time.strftime('%y-%m-%d %H:%M:%S'), 'Upbit Info Load Command')
+    async def myasset(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        print(time.strftime('%y-%m-%d %H:%M:%S'), 'Asset Load Command')
         SERVER_URL = 'https://api.upbit.com/v1/accounts'
-        msg = await myasset(SERVER_URL, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)
+        msg = await get_myasset(SERVER_URL, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)
         await update.message.reply_text(msg)
 
     # 코인 현재 가격정보 불러오기
     @classmethod
-    async def info(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def info(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Upbit Info Load Command')
         SERVER_URL = 'https://api.upbit.com/v1/ticker'
         args = context.args
-        if args:
-            code = args[0]
-        else:
-            code = 'KRW-BTC'
-        msg = await info(code, SERVER_URL)
-        await update.message.reply_text(msg)
+        code = args[0] if args else 'KRW-BTC'
+        
+        msg = await get_info(code, SERVER_URL)
+        await update.message.reply_text('\n'.join(msg))
 
     # 가격정보 불러오기
     @classmethod
-    async def price(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def price(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Coin info Command')
         global price_running
         args = context.args
@@ -73,21 +73,21 @@ pricedel - 불러올 코인 리스트에 삭제
             if not price_running:
                 price_running = True
                 await update.message.reply_text('가격 정보 시작')
-                asyncio.create_task(cls.send_price_updates(update, context))
+                asyncio.create_task(self.send_price_updates(update, context))
         else:
             await update.message.reply_text('ON, OFF 명령어로 작성해주세요')
 
     @classmethod
-    async def send_price_updates(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def send_price_updates(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         global price_running
         while price_running:
-            msg = await price(context.args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)  # await 키워드 추가
+            msg = await get_price(context.args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)  # await 키워드 추가
             await update.message.reply_text(msg)
             await asyncio.sleep(timeset)
 
     # 가격정보 리스트
     @classmethod
-    async def pricelist(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def pricelist(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Coin List Command')
         global price_list
         if not price_list:
@@ -97,16 +97,16 @@ pricedel - 불러올 코인 리스트에 삭제
 
     # 가격정보 리스트 추가
     @classmethod
-    async def priceadd(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def priceadd(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Coin List Add Command')
-        await priceadd(update, context, price_list)
+        await get_priceadd(update, context, price_list)
 
 
     # 가격정보 리스트 삭제
     @classmethod
-    async def pricedel(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def pricedel(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Coin List Del Command')
-        await pricedel(update, context, price_list)
+        await get_pricedel(update, context, price_list)
 
 # 명령어 인식
 def main():
