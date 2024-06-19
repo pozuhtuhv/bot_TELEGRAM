@@ -7,6 +7,6 @@
 - [x] Command 종류 구성
 - [x] Price info ON, OFF 구성
 - [x] Price info (add, del, list) 구성
-- [ ] Upbit Asset Connect
+- [x] Upbit Asset Connect
 - [ ] Price info Upbit Connect
 - [ ] Coin Price Money Trace

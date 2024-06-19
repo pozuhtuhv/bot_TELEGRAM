@@ -52,7 +52,8 @@ pricedel - 불러올 코인 리스트에 삭제
     async def info(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Upbit Info Load Command')
         SERVER_URL = 'https://api.upbit.com/v1/ticker'
-        msg = await info(context, SERVER_URL, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)
+        code = context.args[0] if context.args else 'KRW-BTC'
+        msg = await cls.info(code, SERVER_URL)
         await update.message.reply_text(msg)
 
     # 가격정보 불러오기
