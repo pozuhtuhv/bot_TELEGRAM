@@ -43,14 +43,16 @@ pricedel - 불러올 코인 리스트에 삭제
     @classmethod
     async def myasset(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Upbit Info Load Command')
-        msg = await myasset()
+        SERVER_URL = 'https://api.upbit.com/v1/accounts'
+        msg = await myasset(SERVER_URL, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)
         await update.message.reply_text(msg)
 
     # 코인 현재 가격정보 불러오기
     @classmethod
     async def info(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Upbit Info Load Command')
-        msg = await info(context)
+        SERVER_URL = 'https://api.upbit.com/v1/ticker'
+        msg = await info(context, SERVER_URL, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)
         await update.message.reply_text(msg)
 
     # 가격정보 불러오기
@@ -74,7 +76,7 @@ pricedel - 불러올 코인 리스트에 삭제
     async def send_price_updates(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
         global price_running
         while price_running:
-            msg = await price(context.args, price_list)  # await 키워드 추가
+            msg = await price(context.args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)  # await 키워드 추가
             await update.message.reply_text(msg)
             await asyncio.sleep(timeset)
 
@@ -105,13 +107,13 @@ pricedel - 불러올 코인 리스트에 삭제
 def main():
     try:
         application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
-        application.add_handler(CommandHandler('command', TelegramBotHandler.command))
-        application.add_handler(CommandHandler('myasset', TelegramBotHandler.myasset))
+        application.add_handler(CommandHandler('command', TelegramBotHandler.command)) # 완료
+        application.add_handler(CommandHandler('myasset', TelegramBotHandler.myasset)) # 완료
         application.add_handler(CommandHandler('info', TelegramBotHandler.info))
         application.add_handler(CommandHandler('price', TelegramBotHandler.price))
-        application.add_handler(CommandHandler('priceadd', TelegramBotHandler.priceadd))
-        application.add_handler(CommandHandler('pricedel', TelegramBotHandler.pricedel))
-        application.add_handler(CommandHandler('pricelist', TelegramBotHandler.pricelist))
+        application.add_handler(CommandHandler('priceadd', TelegramBotHandler.priceadd)) # 완료
+        application.add_handler(CommandHandler('pricedel', TelegramBotHandler.pricedel)) # 완료
+        application.add_handler(CommandHandler('pricelist', TelegramBotHandler.pricelist)) # 완료
         application.run_polling()
     except KeyboardInterrupt:
         return True
