@@ -7,6 +7,7 @@ from backend.info import info
 from backend.price import price
 from backend.priceadd import priceadd
 from backend.pricedel import pricedel
+from backend.myasset import myasset
 import time
 
 # .env 파일 활성화
@@ -18,6 +19,7 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 
 price_running = False
 price_list = []
+timeset = 60 # default
 
 # Chat info 명령어 진행
 class TelegramBotHandler:
@@ -29,11 +31,19 @@ class TelegramBotHandler:
 command - 커맨드 정보
 myasset - 코인자산정보
 info - 코인 현재 가격정보
-price - 가격 정보 알림
+price - 가격 정보 알림 / default 1분
+priceset - 가격 정보 알림 시간 설정
 pricelist - 불러올 코인 리스트
 priceadd - 불러올 코인 리스트에 추가
 pricedel - 불러올 코인 리스트에 삭제
         '''
+        await update.message.reply_text(msg)
+
+    # 자산정보 불러오기
+    @classmethod
+    async def myasset(cls, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        print(time.strftime('%y-%m-%d %H:%M:%S'), 'Upbit Info Load Command')
+        msg = await myasset()
         await update.message.reply_text(msg)
 
     # 코인 현재 가격정보 불러오기
@@ -66,7 +76,7 @@ pricedel - 불러올 코인 리스트에 삭제
         while price_running:
             msg = await price(context.args, price_list)  # await 키워드 추가
             await update.message.reply_text(msg)
-            await asyncio.sleep(5)
+            await asyncio.sleep(timeset)
 
     # 가격정보 리스트
     @classmethod
@@ -96,6 +106,7 @@ def main():
     try:
         application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
         application.add_handler(CommandHandler('command', TelegramBotHandler.command))
+        application.add_handler(CommandHandler('myasset', TelegramBotHandler.myasset))
         application.add_handler(CommandHandler('info', TelegramBotHandler.info))
         application.add_handler(CommandHandler('price', TelegramBotHandler.price))
         application.add_handler(CommandHandler('priceadd', TelegramBotHandler.priceadd))
