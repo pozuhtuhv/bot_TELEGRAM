@@ -5,9 +5,9 @@
 - [x] UPBIT API KEY 설정
 - [x] TELEGRAM BOT 설정
 - [x] Command 종류 구성
-- [x] Price info ON, OFF 구성
-- [x] Price info (add, del, list) 구성
+- [x] Price Info Alert ON, OFF 구성
+- [x] Price Info (add, del, list) 구성
 - [x] Upbit Asset Connect
-- [x] Price info Upbit Connect
+- [x] Price Info Upbit Connect
 - [x] httpx Connect
-- [ ] Coin Price Money Trace
+- [ ] Price Info Trace Auto Alert Setting
