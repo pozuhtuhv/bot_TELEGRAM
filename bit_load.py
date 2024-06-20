@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
 import time
 # 따로 보는게 맞을거같아서 모듈 완전 분리
 from backend.get_info import get_info
-from backend.get_price import get_price
+from backend.get_pricetrace import get_pricetrace
 from backend.get_priceadd import get_priceadd
 from backend.get_pricedel import get_pricedel
 from backend.get_myasset import get_myasset
@@ -33,7 +33,8 @@ class TelegramBotHandler:
 command - 커맨드 정보
 myasset - 코인자산정보
 info - 코인 현재 가격정보 (ex. KRW-BTC, BTC-ETH)
-price - 가격 정보 알림 / default 1분
+pricetrace - 가격 정보 알림 / default 1분
+pricetracetimeset - 가격 정보 알림 간격 설정 / default 1분
 priceset - 가격 정보 알림 시간 설정
 pricelist - 불러올 코인 리스트
 priceadd - 불러올 코인 리스트에 추가
@@ -62,7 +63,7 @@ pricedel - 불러올 코인 리스트에 삭제
 
     # 가격정보 불러오기
     @classmethod
-    async def price(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def pricetrace(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Coin info Command')
         global price_running
         args = context.args
@@ -81,7 +82,7 @@ pricedel - 불러올 코인 리스트에 삭제
     async def send_price_updates(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         global price_running
         while price_running:
-            msg = await get_price(context.args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)  # await 키워드 추가
+            msg = await get_pricetrace(context.args, price_list, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY)  # await 키워드 추가
             await update.message.reply_text(msg)
             await asyncio.sleep(timeset)
 
@@ -115,7 +116,7 @@ def main():
         app.add_handler(CommandHandler('command', TelegramBotHandler.command)) # 완료
         app.add_handler(CommandHandler('myasset', TelegramBotHandler.myasset)) # 완료
         app.add_handler(CommandHandler('info', TelegramBotHandler.info))
-        app.add_handler(CommandHandler('price', TelegramBotHandler.price))
+        app.add_handler(CommandHandler('pricetrace', TelegramBotHandler.pricetrace))
         app.add_handler(CommandHandler('priceadd', TelegramBotHandler.priceadd)) # 완료
         app.add_handler(CommandHandler('pricedel', TelegramBotHandler.pricedel)) # 완료
         app.add_handler(CommandHandler('pricelist', TelegramBotHandler.pricelist)) # 완료
