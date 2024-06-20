@@ -21,7 +21,7 @@ async def get_myasset(SERVER_URL, UPBIT_ACCESS_KEY, UPBIT_SECRET_KEY):
 
     output_lines = []
 
-    # 각 코인의 정보를 한 줄씩 리스트에 추가합니다
+    # 각 코인의 정보를 한 줄씩 리스트에 추가
     for item in data:
         output_lines.append(
             f"보유코인: {item['currency']}\n"

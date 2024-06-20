@@ -111,15 +111,15 @@ pricedel - 불러올 코인 리스트에 삭제
 # 명령어 인식
 def main():
     try:
-        application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
-        application.add_handler(CommandHandler('command', TelegramBotHandler.command)) # 완료
-        application.add_handler(CommandHandler('myasset', TelegramBotHandler.myasset)) # 완료
-        application.add_handler(CommandHandler('info', TelegramBotHandler.info))
-        application.add_handler(CommandHandler('price', TelegramBotHandler.price))
-        application.add_handler(CommandHandler('priceadd', TelegramBotHandler.priceadd)) # 완료
-        application.add_handler(CommandHandler('pricedel', TelegramBotHandler.pricedel)) # 완료
-        application.add_handler(CommandHandler('pricelist', TelegramBotHandler.pricelist)) # 완료
-        application.run_polling()
+        app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+        app.add_handler(CommandHandler('command', TelegramBotHandler.command)) # 완료
+        app.add_handler(CommandHandler('myasset', TelegramBotHandler.myasset)) # 완료
+        app.add_handler(CommandHandler('info', TelegramBotHandler.info))
+        app.add_handler(CommandHandler('price', TelegramBotHandler.price))
+        app.add_handler(CommandHandler('priceadd', TelegramBotHandler.priceadd)) # 완료
+        app.add_handler(CommandHandler('pricedel', TelegramBotHandler.pricedel)) # 완료
+        app.add_handler(CommandHandler('pricelist', TelegramBotHandler.pricelist)) # 완료
+        app.run_polling()
     except KeyboardInterrupt:
         return True
 
