@@ -10,5 +10,5 @@
 - [x] Upbit Asset Connect
 - [x] Price Info Upbit Connect
 - [x] httpx Connect
-- [ ] Price Info Trace Auto Alert Setting
-- [ ] Price Info Trace Auto Alert Time Setting
+- [x] Price Info Trace Auto Alert Setting
+- [ ] Price Info Trace Auto Alert Time Setting(delete)

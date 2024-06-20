@@ -1,11 +1,4 @@
-# requests 및 이외 작용 모듈 테스트 공간
+price_list = ['1', '2', '3']
 
-import requests
-
-url = "https://api.upbit.com/v1/market/all?isDetails=true"
-
-headers = {"accept": "application/json"}
-
-res = requests.get(url, headers=headers)
-
-print(res.json())
+for i in range(0, len(price_list)):
+    print(price_list[i])

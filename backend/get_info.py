@@ -3,13 +3,12 @@
 import httpx
 from datetime import datetime, timezone
 
-async def get_info(code, server_url):
-    headers = {"accept": "application/json"}
+async def get_info(code, SERVER_URL, headers):
+    msg = []
     async with httpx.AsyncClient() as client:
-        response = await client.get(f"{server_url}?markets={code}", headers=headers)
+        response = await client.get(f"{SERVER_URL}?markets={code}", headers=headers)
         data = response.json()
 
-    msg = []
     timestamp_set = int(data[0]['timestamp']) / 1000
     current_time_utc = datetime.fromtimestamp(timestamp_set).strftime('%Y-%m-%d %H:%M:%S UTC')
     
