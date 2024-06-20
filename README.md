@@ -42,5 +42,6 @@ ROOM_ID_CONFIRM
 ```
 AND
 ```
+pip install -r requirements.txt
 python -u bit_load.py
 ```
