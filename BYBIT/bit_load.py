@@ -3,7 +3,7 @@ import os
 import time
 
 # 따로 보는게 맞을거같아서 모듈 완전 분리
-from backend.get_info import get_info
+from BYBIT.backend.testcode import get_info
 from backend.get_myasset import get_myasset
 from backend.get_priceadd import get_priceadd
 from backend.get_pricedel import get_pricedel
@@ -70,15 +70,23 @@ class TelegramBotHandler:
         else:
             await update.message.reply_text('ON, OFF 명령어로 작성해주세요')
 
+    @classmethod
+    async def send_price_updates(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        global price_running
+        while True:
+            msg = await get_pricetrace(price_list)
+            await update.message.reply_text('\n'.join(msg))
+            await asyncio.sleep(timeset) # default 10sec
+
     # 가격정보 리스트
     @classmethod
-    async def pricelist(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async def pricelist(self, update: Update):
         print(time.strftime('%y-%m-%d %H:%M:%S'), 'Coin List Command')
         global price_list
         if not price_list:
-            await update.message.reply_text(f'현재 추가된 코인이 없습니다')
+            await update.message.reply_text(f'현재 추가된 토큰이 없습니다')
         else:
-            await update.message.reply_text(f'현재 코인 확인 리스트:\n- ' + '\n- '.join(price_list))
+            await update.message.reply_text(f'현재 토큰 확인 리스트:\n- ' + '\n- '.join(price_list))
 
     # 가격정보 리스트 추가
     @classmethod
