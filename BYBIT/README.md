@@ -1,4 +1,4 @@
-### bot_bybit_telegram
+### bot_bybit_telegram (~ ing)
 
 ### NOT BUY, NOT SELL, JUST ONLY ALERT
 
