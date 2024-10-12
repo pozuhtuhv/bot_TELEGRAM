@@ -1,0 +1,1786 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x470dc172d6502ac930b59322ece5345dd456a03d",
+            "pairAddress": "0x470DC172d6502Ac930B59322EcE5345dd456A03D",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x28561B8A2360F463011c16b6Cc0B0cbEF8dbBcad",
+                "name": "MOO DENG",
+                "symbol": "MOODENG"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.00000005700",
+            "priceUsd": "0.0001401",
+            "txns": {
+                "m5": {
+                    "buys": 2,
+                    "sells": 6
+                },
+                "h1": {
+                    "buys": 39,
+                    "sells": 41
+                },
+                "h6": {
+                    "buys": 246,
+                    "sells": 201
+                },
+                "h24": {
+                    "buys": 1045,
+                    "sells": 898
+                }
+            },
+            "volume": {
+                "h24": 4396367.37,
+                "h6": 693378.87,
+                "h1": 140776.45,
+                "m5": 25759.98
+            },
+            "priceChange": {
+                "m5": 1.58,
+                "h1": 1.12,
+                "h6": -3.06,
+                "h24": 3.49
+            },
+            "liquidity": {
+                "usd": 1551987.84,
+                "base": 5538428501,
+                "quote": 315.6926
+            },
+            "fdv": 58077082,
+            "marketCap": 58077082,
+            "pairCreatedAt": 1726431167000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x28561b8a2360f463011c16b6cc0b0cbef8dbbcad.png",
+                "websites": [
+                    {
+                        "label": "Website",
+                        "url": "https://moodeng.vip/"
+                    }
+                ],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/moodengctoeth"
+                    },
+                    {
+                        "type": "telegram",
+                        "url": "https://t.me/moodengethcto"
+                    }
+                ]
+            }
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x5552727005cc8194c1559289a532deb288964fd8",
+            "pairAddress": "0x5552727005cc8194c1559289A532DEb288964FD8",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x28561B8A2360F463011c16b6Cc0B0cbEF8dbBcad",
+                "name": "MOO DENG",
+                "symbol": "MOODENG"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.00000005631",
+            "priceUsd": "0.0001384",
+            "txns": {
+                "m5": {
+                    "buys": 4,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 15,
+                    "sells": 10
+                },
+                "h6": {
+                    "buys": 73,
+                    "sells": 55
+                },
+                "h24": {
+                    "buys": 404,
+                    "sells": 224
+                }
+            },
+            "volume": {
+                "h24": 1658040.72,
+                "h6": 211167.2,
+                "h1": 45084,
+                "m5": 7979.22
+            },
+            "priceChange": {
+                "m5": 1.62,
+                "h1": -0.29,
+                "h6": -5,
+                "h24": 3.31
+            },
+            "liquidity": {
+                "usd": 748393.06,
+                "base": 3152221884,
+                "quote": 126.8934
+            },
+            "fdv": 57389838,
+            "marketCap": 57389838,
+            "pairCreatedAt": 1726645835000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x28561b8a2360f463011c16b6cc0b0cbef8dbbcad.png",
+                "websites": [
+                    {
+                        "label": "Website",
+                        "url": "https://moodeng.vip/"
+                    }
+                ],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/moodengctoeth"
+                    },
+                    {
+                        "type": "telegram",
+                        "url": "https://t.me/moodengethcto"
+                    }
+                ]
+            }
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "shibaswap",
+            "url": "https://dexscreener.com/ethereum/0xcf6daab95c476106eca715d48de4b13287ffdeaa",
+            "pairAddress": "0xCF6dAAB95c476106ECa715D48DE4b13287ffDEAa",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007328",
+            "priceUsd": "0.00001801",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 3,
+                    "sells": 3
+                },
+                "h6": {
+                    "buys": 9,
+                    "sells": 8
+                },
+                "h24": {
+                    "buys": 43,
+                    "sells": 58
+                }
+            },
+            "volume": {
+                "h24": 280857.31,
+                "h6": 48361.11,
+                "h1": 24803.51,
+                "m5": 4634.74
+            },
+            "priceChange": {
+                "m5": 0.27,
+                "h1": 0.22,
+                "h6": 0.76,
+                "h24": 3.87
+            },
+            "liquidity": {
+                "usd": 6803016.27,
+                "base": 188833601356,
+                "quote": 1383.8139
+            },
+            "fdv": 18012147099,
+            "marketCap": 10614465552,
+            "pairCreatedAt": 1625545149000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x811beed0119b4afce20d2583eb608c6f7af1954f",
+            "pairAddress": "0x811beEd0119b4AfCE20D2583EB608C6F7AF1954f",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007326",
+            "priceUsd": "0.00001800",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 6,
+                    "sells": 5
+                },
+                "h6": {
+                    "buys": 14,
+                    "sells": 14
+                },
+                "h24": {
+                    "buys": 50,
+                    "sells": 66
+                }
+            },
+            "volume": {
+                "h24": 56895.45,
+                "h6": 11094.28,
+                "h1": 5337.04,
+                "m5": 2059.88
+            },
+            "priceChange": {
+                "m5": 0.84,
+                "h1": 0.21,
+                "h6": 0.96,
+                "h24": 4.22
+            },
+            "liquidity": {
+                "usd": 1264156.85,
+                "base": 35097550185,
+                "quote": 257.1444
+            },
+            "fdv": 18008079928,
+            "marketCap": 10612068789,
+            "pairCreatedAt": 1596228131000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+            "pairAddress": "0x2F62f2B4c5fcd7570a709DeC05D68EA19c82A9ec",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007308",
+            "priceUsd": "0.00001796",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 3,
+                    "sells": 3
+                },
+                "h6": {
+                    "buys": 9,
+                    "sells": 10
+                },
+                "h24": {
+                    "buys": 41,
+                    "sells": 50
+                }
+            },
+            "volume": {
+                "h24": 203805.73,
+                "h6": 36569.02,
+                "h1": 13228.93,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0.16,
+                "h6": 0.69,
+                "h24": 3.95
+            },
+            "liquidity": {
+                "usd": 1888441.95,
+                "base": 60852284868,
+                "quote": 323.5213
+            },
+            "fdv": 17963782952,
+            "marketCap": 10585964809,
+            "pairCreatedAt": 1620241691000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x5764a6f2212d502bc5970f9f129ffcd61e5d7563",
+            "pairAddress": "0x5764a6F2212D502bC5970f9f129fFcd61e5D7563",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007307",
+            "priceUsd": "0.00001789",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 10,
+                    "sells": 2
+                }
+            },
+            "volume": {
+                "h24": 12248.88,
+                "h6": 1250.31,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0.61,
+                "h24": 4.6
+            },
+            "liquidity": {
+                "usd": 729245.66,
+                "base": 22914001192,
+                "quote": 130.4306
+            },
+            "fdv": 17889058332,
+            "marketCap": 10541929975,
+            "pairCreatedAt": 1620244947000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0xe11ae46aa5200984d59ff54f3b2c7ff6ac6ef749",
+            "pairAddress": "0xe11Ae46AA5200984d59FF54F3b2c7Ff6AC6EF749",
+            "labels": [
+                "v1"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+                "name": "Wrapped Pulse",
+                "symbol": "WPLS"
+            },
+            "priceNative": "0.0009924",
+            "priceUsd": "0.00000005285",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 2
+                },
+                "h6": {
+                    "buys": 2,
+                    "sells": 7
+                },
+                "h24": {
+                    "buys": 36,
+                    "sells": 85
+                }
+            },
+            "volume": {
+                "h24": 668.92,
+                "h6": 9.72,
+                "h1": 2.78,
+                "m5": 0.25
+            },
+            "priceChange": {
+                "m5": -0.35,
+                "h1": -0.35,
+                "h6": 0.58,
+                "h24": -1.63
+            },
+            "liquidity": {
+                "usd": 32577.79,
+                "base": 308165002259,
+                "quote": 305833624
+            },
+            "fdv": 52855031,
+            "marketCap": 52855031,
+            "pairCreatedAt": 1683944325000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "shibaswap",
+            "url": "https://dexscreener.com/ethereum/0x98c2b0681d8bf07767826ea8bd3b11b0ca421631",
+            "pairAddress": "0x98C2b0681d8BF07767826eA8BD3b11b0Ca421631",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "name": "Tether USD",
+                "symbol": "USDT"
+            },
+            "priceNative": "0.00001786",
+            "priceUsd": "0.00001786",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h24": {
+                    "buys": 3,
+                    "sells": 4
+                }
+            },
+            "volume": {
+                "h24": 1634.01,
+                "h6": 17.78,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": -0.09,
+                "h24": 3.12
+            },
+            "liquidity": {
+                "usd": 77172.54,
+                "base": 2160339185,
+                "quote": 38586
+            },
+            "fdv": 17860110409,
+            "marketCap": 10524871113,
+            "pairCreatedAt": 1625545820000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "shibaswap",
+            "url": "https://dexscreener.com/ethereum/0x9379f5e035cf6148c6bbee1d6415795cc773b0a4",
+            "pairAddress": "0x9379F5e035CF6148c6bbEE1D6415795cc773b0A4",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "name": "USD Coin",
+                "symbol": "USDC"
+            },
+            "priceNative": "0.00001776",
+            "priceUsd": "0.00001776",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 2
+                },
+                "h6": {
+                    "buys": 2,
+                    "sells": 2
+                },
+                "h24": {
+                    "buys": 4,
+                    "sells": 3
+                }
+            },
+            "volume": {
+                "h24": 2199.65,
+                "h6": 1484.96,
+                "h1": 1145.39,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": -2.33,
+                "h6": 0.31,
+                "h24": -0.02
+            },
+            "liquidity": {
+                "usd": 50610.52,
+                "base": 1424351616,
+                "quote": 25305
+            },
+            "fdv": 17765069911,
+            "marketCap": 10468864237,
+            "pairCreatedAt": 1625590313000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x248823df26180700e56f632dd7fa64a4d63f9db1",
+            "pairAddress": "0x248823dF26180700e56f632dd7Fa64a4d63f9DB1",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+                "name": "Pepe",
+                "symbol": "PEPE"
+            },
+            "priceNative": "1.8114",
+            "priceUsd": "0.00001770",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 3,
+                    "sells": 2
+                }
+            },
+            "volume": {
+                "h24": 657.38,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 3.93
+            },
+            "liquidity": {
+                "usd": 20042.42,
+                "base": 597789261,
+                "quote": 967860641
+            },
+            "fdv": 17702688505,
+            "marketCap": 10432103195,
+            "pairCreatedAt": 1689409607000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "shibaswap",
+            "url": "https://dexscreener.com/ethereum/0x024344da138b76ff2f5ce2386abdb4c97659b181",
+            "pairAddress": "0x024344DA138B76ff2F5Ce2386abdb4C97659b181",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3",
+                "name": "Dogelon",
+                "symbol": "ELON"
+            },
+            "priceNative": "139.9303",
+            "priceUsd": "0.00001755",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 110.36,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0
+            },
+            "liquidity": {
+                "usd": 18522.8,
+                "base": 527668370,
+                "quote": 73836797341
+            },
+            "fdv": 17550477919,
+            "marketCap": 10342406281,
+            "pairCreatedAt": 1625672817000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0x0ec653061dc5a1a36792a95e6ceec70702bfa7ef",
+            "pairAddress": "0x0Ec653061Dc5A1A36792A95e6Ceec70702bfa7Ef",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+                "name": "Wrapped Pulse",
+                "symbol": "WPLS"
+            },
+            "priceNative": "0.0009922",
+            "priceUsd": "0.00000005262",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 11,
+                    "sells": 25
+                }
+            },
+            "volume": {
+                "h24": 41.06,
+                "h6": 0.46,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0.23,
+                "h24": -3.66
+            },
+            "liquidity": {
+                "usd": 1397.07,
+                "base": 13275042016,
+                "quote": 13171911
+            },
+            "fdv": 52617559,
+            "marketCap": 52617559,
+            "pairCreatedAt": 1685660515000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x773dd321873fe70553acc295b1b49a104d968cc8",
+            "pairAddress": "0x773dD321873fe70553ACC295b1b49A104d968CC8",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "name": "Tether USD",
+                "symbol": "USDT"
+            },
+            "priceNative": "0.00001787",
+            "priceUsd": "0.00001787",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 3,
+                    "sells": 1
+                }
+            },
+            "volume": {
+                "h24": 243.41,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 4.68
+            },
+            "liquidity": {
+                "usd": 12015.19,
+                "base": 336033394,
+                "quote": 6007.5998
+            },
+            "fdv": 17876883345,
+            "marketCap": 10534755318,
+            "pairCreatedAt": 1596380606000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0xbc53ab6a4f38252b52ac323a97bbb78c6e9f7610",
+            "pairAddress": "0xbc53AB6A4f38252b52ac323A97BbB78C6E9F7610",
+            "labels": [
+                "v1"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x9F8182aD65c53Fd78bd07648a1b3DDcB675c6772",
+                "name": "Daytona.Finance",
+                "symbol": "TONI"
+            },
+            "priceNative": "0.00004199",
+            "priceUsd": "0.00000005353",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2,
+                    "sells": 4
+                }
+            },
+            "volume": {
+                "h24": 14.73,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": -0.7
+            },
+            "liquidity": {
+                "usd": 1805.23,
+                "base": 16860226140,
+                "quote": 708041
+            },
+            "fdv": 53532654,
+            "marketCap": 53532654,
+            "pairCreatedAt": 1689101415000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0x7fe46d899e00c1f7d8fa8567bea2c7e027df641d",
+            "pairAddress": "0x7fE46d899e00c1f7D8fA8567bEA2C7e027df641D",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+                "name": "Pepe",
+                "symbol": "PEPE"
+            },
+            "priceNative": "3.8707",
+            "priceUsd": "0.00000005287",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 1
+                },
+                "h24": {
+                    "buys": 3,
+                    "sells": 5
+                }
+            },
+            "volume": {
+                "h24": 15.78,
+                "h6": 4.43,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": -0.51,
+                "h24": -3.21
+            },
+            "liquidity": {
+                "usd": 1038.23,
+                "base": 9817661134,
+                "quote": 38001480114
+            },
+            "fdv": 52873113,
+            "marketCap": 52873113,
+            "pairCreatedAt": 1688358275000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0xa15cc73e881c06d8db06b50b7a3688b763c18350",
+            "pairAddress": "0xA15cc73E881c06D8DB06b50b7a3688B763C18350",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "name": "USD Coin",
+                "symbol": "USDC"
+            },
+            "priceNative": "0.00001781",
+            "priceUsd": "0.00001781",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2,
+                    "sells": 1
+                }
+            },
+            "volume": {
+                "h24": 283.11,
+                "h6": 39.44,
+                "h1": 39.44,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 1.03,
+                "h6": 1.03,
+                "h24": 1.01
+            },
+            "liquidity": {
+                "usd": 7471.09,
+                "base": 191625109,
+                "quote": 4056.971
+            },
+            "fdv": 17815599178,
+            "marketCap": 10498640874,
+            "pairCreatedAt": 1624129145000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "verse",
+            "url": "https://dexscreener.com/ethereum/0x5a89feea78872d7a10dda3ddb95ce7a05b99081a",
+            "pairAddress": "0x5A89feEA78872D7a10DdA3dDb95Ce7a05b99081A",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007170",
+            "priceUsd": "0.00001750",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 51,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": -0.4
+            },
+            "liquidity": {
+                "usd": 5746.46,
+                "base": 164119698,
+                "quote": 1.1768
+            },
+            "fdv": 17505863087,
+            "marketCap": 10316114990,
+            "pairCreatedAt": 1670569223000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "sushiswap",
+            "url": "https://dexscreener.com/ethereum/0x24d3dd4a62e29770cf98810b09f89d3a90279e7a",
+            "pairAddress": "0x24D3dD4a62e29770cf98810b09F89D3A90279E7a",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007289",
+            "priceUsd": "0.00001787",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 7,
+                    "sells": 1
+                }
+            },
+            "volume": {
+                "h24": 71.2,
+                "h6": 0.53,
+                "h1": 0.53,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0.34,
+                "h6": 0.34,
+                "h24": 0.71
+            },
+            "liquidity": {
+                "usd": 4219.64,
+                "base": 118003715,
+                "quote": 0.8601
+            },
+            "fdv": 17878197068,
+            "marketCap": 10535529488,
+            "pairCreatedAt": 1619368908000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "shibaswap",
+            "url": "https://dexscreener.com/ethereum/0xa808ee750c59566b32fefa225b28d12bf5b1ca53",
+            "pairAddress": "0xa808ee750c59566b32FeFa225b28D12bF5b1Ca53",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+                "name": "Uniswap",
+                "symbol": "UNI"
+            },
+            "priceNative": "0.000002257",
+            "priceUsd": "0.00001773",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 79.58,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0
+            },
+            "liquidity": {
+                "usd": 4216.38,
+                "base": 118865893,
+                "quote": 268.3869
+            },
+            "fdv": 17734803919,
+            "marketCap": 10451028643,
+            "pairCreatedAt": 1625909995000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0xb0cc75ed5aabb0acce7cbf0302531bb260d259c4",
+            "pairAddress": "0xB0cC75ed5AaBB0aCce7cbf0302531Bb260d259C4",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "name": "Tether USD",
+                "symbol": "USDT"
+            },
+            "priceNative": "0.00001827",
+            "priceUsd": "0.00001827",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 48.88,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0
+            },
+            "liquidity": {
+                "usd": 3073.34,
+                "base": 79943661,
+                "quote": 1612.3217
+            },
+            "fdv": 18274524537,
+            "marketCap": 10769083225,
+            "pairCreatedAt": 1620729174000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x94e4b2e24523cf9b3e631a6943c346df9687c723",
+            "pairAddress": "0x94E4b2E24523CF9B3e631A6943C346dF9687c723",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "name": "Wrapped Ether",
+                "symbol": "WETH"
+            },
+            "priceNative": "0.000000007236",
+            "priceUsd": "0.00001769",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 3,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 32.14,
+                "h6": 1.77,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0.53,
+                "h24": 2.8
+            },
+            "liquidity": {
+                "usd": 2625.06,
+                "base": 84699140,
+                "quote": 0.4604
+            },
+            "fdv": 17695924303,
+            "marketCap": 10428117086,
+            "pairCreatedAt": 1620434555000
+        },
+        {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0xe07c687cecb3caf246ded3240d186181d5eae705",
+            "pairAddress": "0xE07C687CECB3cAF246deD3240D186181d5EAE705",
+            "labels": [
+                "v3"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+                "name": "Uniswap",
+                "symbol": "UNI"
+            },
+            "priceNative": "0.000002188",
+            "priceUsd": "0.00001743",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 80.58,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0
+            },
+            "liquidity": {
+                "usd": 1274.06,
+                "base": 46241784,
+                "quote": 58.7524
+            },
+            "fdv": 17432358607,
+            "marketCap": 10272799179,
+            "pairCreatedAt": 1620502754000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0x8c753e2385e399c2ae3c98e4e32138340404b1b2",
+            "pairAddress": "0x8c753E2385E399c2aE3c98e4E32138340404B1B2",
+            "labels": [
+                "v1"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
+                "name": "Dai Stablecoin from Ethereum",
+                "symbol": "DAI"
+            },
+            "priceNative": "0.00000005288",
+            "priceUsd": "0.00000005288",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 4,
+                    "sells": 4
+                }
+            },
+            "volume": {
+                "h24": 9.76,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": -0.72
+            },
+            "liquidity": {
+                "usd": 663.25,
+                "base": 6271269612,
+                "quote": 331.6282
+            },
+            "fdv": 52877883,
+            "marketCap": 52877883,
+            "pairCreatedAt": 1684397235000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "0x115934131916C8b277DD010Ee02de363c09d037c",
+            "url": "https://dexscreener.com/pulsechain/0x9379f5e035cf6148c6bbee1d6415795cc773b0a4",
+            "pairAddress": "0x9379F5e035CF6148c6bbEE1D6415795cc773b0A4",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "name": "USD Coin",
+                "symbol": "USDC"
+            },
+            "priceNative": "0.00001514",
+            "priceUsd": "0.00000005434",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 11,
+                    "sells": 4
+                }
+            },
+            "volume": {
+                "h24": 28.07,
+                "h6": 1.34,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 3.96,
+                "h24": 0.76
+            },
+            "liquidity": {
+                "usd": 594.42,
+                "base": 5468501269,
+                "quote": 82796
+            },
+            "fdv": 54346977,
+            "marketCap": 54346977,
+            "pairCreatedAt": 1683952985000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0x98fb608a59e3ffdc8d2c05d2bebd6a3233bf061c",
+            "pairAddress": "0x98fB608A59E3FFDc8D2c05D2bEbd6A3233BF061c",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d",
+                "name": "Incentive",
+                "symbol": "INC"
+            },
+            "priceNative": "0.00000002323",
+            "priceUsd": "0.00000005384",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.42,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0
+            },
+            "liquidity": {
+                "usd": 206.14,
+                "base": 1914252041,
+                "quote": 44.4748
+            },
+            "fdv": 53841092,
+            "marketCap": 53841092,
+            "pairCreatedAt": 1686144555000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0x1a90caf04dbfb3b5b0aa9accfb2143f4f1d230cd",
+            "pairAddress": "0x1A90caf04dBfb3b5B0aA9AccFB2143f4f1d230cD",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
+                "name": "PulseX",
+                "symbol": "PLSX"
+            },
+            "priceNative": "0.001783",
+            "priceUsd": "0.00000005392",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.01,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0
+            },
+            "liquidity": {
+                "usd": 199.73,
+                "base": 1851786621,
+                "quote": 3302262
+            },
+            "fdv": 53926655,
+            "marketCap": 53926655,
+            "pairCreatedAt": 1685660775000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0xd90f11a0bc0697c743c9374b8f9c24752b9e2db8",
+            "pairAddress": "0xd90f11a0bc0697C743C9374b8f9c24752B9E2db8",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "name": "Dai Stablecoin",
+                "symbol": "DAI"
+            },
+            "priceNative": "0.00001511",
+            "priceUsd": "0.00000005376",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 4,
+                    "sells": 1
+                }
+            },
+            "volume": {
+                "h24": 1.46,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": 0.63
+            },
+            "liquidity": {
+                "usd": 47.69,
+                "base": 443515160,
+                "quote": 6705.04286
+            },
+            "fdv": 53763525,
+            "marketCap": 53763525,
+            "pairCreatedAt": 1686691925000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/pulsechain/0x06520317775b25db8633fc3e19c3717fdd0c63e3",
+            "pairAddress": "0x06520317775B25Db8633Fc3E19C3717FDd0C63E3",
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+                "name": "HEX",
+                "symbol": "HEX"
+            },
+            "priceNative": "0.000003285",
+            "priceUsd": "0.00000005248",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 2
+                }
+            },
+            "volume": {
+                "h24": 1.52,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": -2.77
+            },
+            "liquidity": {
+                "usd": 65.7,
+                "base": 625926945,
+                "quote": 2056.4352
+            },
+            "fdv": 52481999,
+            "marketCap": 52481999,
+            "pairCreatedAt": 1683950335000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0x21a105c274cfe0f31b5bc38e656108ed48134c77",
+            "pairAddress": "0x21A105c274Cfe0f31B5bc38e656108ed48134C77",
+            "labels": [
+                "v1"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07",
+                "name": "USD Coin from Ethereum",
+                "symbol": "USDC"
+            },
+            "priceNative": "0.00000005295",
+            "priceUsd": "0.00000005295",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 2
+                }
+            },
+            "volume": {
+                "h24": 0.81,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": -2.43
+            },
+            "liquidity": {
+                "usd": 57.89,
+                "base": 546659783,
+                "quote": 28.9459
+            },
+            "fdv": 52947969,
+            "marketCap": 52947969,
+            "pairCreatedAt": 1684340115000
+        },
+        {
+            "chainId": "pulsechain",
+            "dexId": "pulsex",
+            "url": "https://dexscreener.com/pulsechain/0xd8eb9b921a6a1fc84495521c68c5737a8c874c8b",
+            "pairAddress": "0xd8eb9B921A6A1Fc84495521c68C5737a8c874C8b",
+            "labels": [
+                "v2"
+            ],
+            "baseToken": {
+                "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "name": "SHIBA INU",
+                "symbol": "SHIB"
+            },
+            "quoteToken": {
+                "address": "0xCc78A0acDF847A2C1714D2A925bB4477df5d48a6",
+                "name": "Atropa",
+                "symbol": "ATROPA"
+            },
+            "priceNative": "0.000001981",
+            "priceUsd": "0.00000005331",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.33,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "m5": 0,
+                "h1": 0,
+                "h6": 0,
+                "h24": -0.27
+            },
+            "liquidity": {
+                "usd": 15.91,
+                "base": 149272457,
+                "quote": 295.8023
+            },
+            "fdv": 53308123,
+            "marketCap": 53308123,
+            "pairCreatedAt": 1691942465000
+        }
+    ]
+}
