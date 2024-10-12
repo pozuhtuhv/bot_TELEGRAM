@@ -1,15 +1,16 @@
-import os
 import asyncio
-from dotenv import load_dotenv
-from telegram import Update
-from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
+import os
 import time
+
 # 따로 보는게 맞을거같아서 모듈 완전 분리
 from backend.get_info import get_info
-from backend.get_pricetrace import get_pricetrace
+from backend.get_myasset import get_myasset
 from backend.get_priceadd import get_priceadd
 from backend.get_pricedel import get_pricedel
-from backend.get_myasset import get_myasset
+from backend.get_pricetrace import get_pricetrace
+from dotenv import load_dotenv
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # .env 파일 활성화
 load_dotenv()
